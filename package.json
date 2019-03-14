@@ -21,12 +21,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "testing": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "electron-dev": "concurrently \"BROWER=none&&npm start\" \"wait-on http://localhost:3000 && electron .\"",
-    "electron": "electron ."
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
